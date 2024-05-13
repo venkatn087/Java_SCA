@@ -598,5 +598,11 @@
             </build>
         </profile>
    </profiles>
-
+   <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-10-142-0-13.us-east-2.compute.internal-snapshots</name>
+        <url>http://10.142.0.13:8081/artifactory/maven_snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
